@@ -1,0 +1,193 @@
+
+/* progress bar 01....**** */
+.progress-bar1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: 
+    radial-gradient(closest-side, white 79%, transparent 80% 100%),
+    conic-gradient(rgb(240, 10, 21) 87%, pink 0);    
+}
+
+.progress-bar1::before {
+  content: "87%";
+}
+
+/* ****progress bar 02*** */
+.progress-bar2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: 
+    radial-gradient(closest-side, white 79%, transparent 80% 100%),
+    conic-gradient(rgb(8, 226, 226) 90%, pink 0);    
+}
+.progress-bar2::before {
+  content: "90%";
+}
+
+
+/* ******progress bar 03 **** */
+.progress-bar3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: 
+    radial-gradient(closest-side, white 79%, transparent 80% 100%),
+    conic-gradient(rgb(156, 10, 125) 95%, pink 0);    
+}
+
+
+.progress-bar3::before {
+  content: "95%";
+}
+
+
+
+/* *****progress bar 04 *****  */
+.progress-bar4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: 
+    radial-gradient(closest-side, white 79%, transparent 80% 100%),
+    conic-gradient(rgb(3, 235, 92) 100%, pink 0);    
+}
+.progress-bar4::before {
+  content: "100%";
+}
+
+
+
+/* ***program section card add*** */
+.col{
+  width: 250px;
+  height: 300px;
+  border:1px solid gray;
+  border: none;
+  border-radius: 7px;
+
+}
+.row{
+  display: flex;
+  gap:30px;
+  
+}
+.ps-img1{
+  background-image: url(./Images/2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.ps-img2{
+  background-image: url(./Images/3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ps-img3{
+  background-image: url(./Images/4.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pro-card{
+  border:1px solid gray;
+  
+  border-radius: 7px;
+  box-shadow: 1px 2px 2px 1px;
+  
+}
+
+/* ****** Client section **** */
+
+.client-section{
+  border:1px dotted gray;
+  box-shadow: 1px 1px 2px 1px ;
+  border-radius: 7px;
+  
+}
+
+.get-logo{
+  width: 300px;
+  height: 170px;
+  background-color: rgb(236, 243, 195);
+  border-radius: 7px;
+  border: none;
+  
+  
+}
+.massage{
+  
+  width: 300px;
+  height: 170px;
+  background-color: rgb(242, 243, 224);
+  border-radius: 7px;
+  border: none;
+}
+.map{
+  width: 300px;
+  height: 170px;
+  background-color: rgb(218, 222, 241);
+  border-radius: 7px;
+  border: none;
+}
+.logo-and-question{
+  width: 50%;
+  border: 1px solid gray;
+  border-radius: 7px;
+  
+}
+.box{
+  margin-top: 10px;
+  height: 50px;
+  width: 250px;
+}
+.massage-box{
+  width: 250px;
+  height: 350px;
+}
+.touch-container{
+  
+  border: 1px solid rgb(182, 168, 168);
+  
+  border-radius: 7px;
+}
+
+/* **** social media part **** */
+
+.socila-media{
+  background-color: rgb(243, 242, 242);
+  border-radius: 7px;
+}
+
+ul{
+  list-style: none;
+  
+}
+li{
+  margin-top: 10px;
+}
+footer{
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+.footer-container{
+  padding: 80px;
+}
